@@ -1,0 +1,144 @@
+:root {
+    --background_color_1: black;
+    --font_color_1: white;
+    --background_color_2: white;
+    --font_color_2: black;
+    --primary_color: #3946AF;
+}
+
+* {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 40px;
+    width: 100%;
+    transition: box-shadow 0.5s ease;
+    cursor: pointer;
+}
+
+button.primary {
+    background-color: var(--primary_color);
+    color: var(--font_color_1);
+    border: 0.1rem solid var(--primary_color);
+
+    &:hover {
+        box-shadow: 0 0 1rem var(--primary_color);
+    }
+}
+
+button.secondary {
+    background-color: transparent;
+    color: var(--primary_color);
+    border: 0.1rem solid var(--primary_color);
+
+    &:hover {
+        box-shadow: 0 0 1rem var(--primary_color);
+    }
+}
+
+a {
+    color: var(--background_color_1);
+    font-size: 0.8rem;
+}
+
+
+nav {
+    background-color: var(--background_color_1);
+    display: flex;
+    justify-content: space-between;
+    color: var(--font_color_1);
+    padding: 1rem 2rem 1rem 2rem;
+    z-index: 2;
+
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 2rem;
+    }
+
+    .options {
+        display: flex;
+        gap: 2rem;
+    }
+}
+
+#store {
+    height: 100vh;
+    background-color: var(--background_color_1);
+    color: var(--font_color_1);
+    background-image: url('./assets/mac-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .content {
+        margin-top: 10%;
+
+        .desc {
+            text-align: center;
+            display: flex;
+            gap: 1rem;
+            flex-direction: column;
+        }
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .actions {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 4rem;
+    }
+}
+
+#mac {
+    height: 100vh;
+    background-color: var(--background_color_2);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+
+    .card-container {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+
+        .card {
+            width: 15rem;
+            border-radius: 20px;
+            box-shadow: 0px 15px 30px -10px rgba(0, 0, 0, 0.30);
+            border: 0.5px solid rgba(57, 70, 175, 0.30);
+            padding: 1rem;
+            display: flex;
+            gap: 1rem;
+            flex-direction: column;
+
+            img {
+                height: 12rem;
+            }
+
+            .actions {
+                display: flex;
+                gap: 1rem;
+            }
+        }
+    }
+}
+
+#gap {
+    height: 200vh;
+    background-color: black;
+}
