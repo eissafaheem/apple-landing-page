@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/apple-logo.svg" type="image/x-icon">
     <title>Apple</title>
 </head>
 
@@ -37,86 +38,103 @@
             </div>
         </div>
     </section>
-    <section id="mac">
-        <h2>
-            Which Mac is right <br> for you?
-        </h2>
-        <div class="card-container">
-            <div class="card">
-                <img src="./assets/products/mac1.svg" alt="">
-                <p>
-                    <strong>
-                        Apple Macbook Pro 14
-                    </strong>
-                </p>
-                <p>
-                    <strong>
-                        $1,999
-                    </strong> USD
-                </p>
-                <div class="actions">
-                    <button class="primary">Buy</button>
-                    <button class="secondary">Details</button>
-                </div>
+    <section id="mac"></section>
+    <section id="airpodsSection">
+        <div class="slideShow">
+            <div class="desc">
+                <h2>A marvel of modern silence.</h2>
+                <br>
+                <p>AirPods Pro are built to let you listen in peace With control over what you hear — and don’t hear —
+                    you’ll
+                    be immersed in songs and podcasts like never before.</p>
             </div>
-            <div class="card">
-                <img src="./assets/products/mac2.svg" alt="">
-                <p>
-                    <strong>
-                        MacBook Air with M2 chip
-                    </strong>
-                </p>
-                <p>
-                    <strong>
-                        $2,399
-                    </strong> USD
-                </p>
-                <div class="actions">
-                    <button class="primary">Buy</button>
-                    <button class="secondary">Details</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/products/mac3.svg" alt="">
-                <p>
-                    <strong>
-                        MacBook Air with M1 chip
-                    </strong>
-                </p>
-                <p>
-                    <strong>
-                        $829.99
-                    </strong> USD
-                </p>
-                <div class="actions">
-                    <button class="primary">Buy</button>
-                    <button class="secondary">Details</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./assets/products/mac4.svg" alt="">
-                <p>
-                    <strong>
-                        Apple Macbook Pro 13
-                    </strong>
-                </p>
-                <p>
-                    <strong>
-                        $829.99
-                    </strong> USD
-                </p>
-                <div class="actions">
-                    <button class="primary">Buy</button>
-                    <button class="secondary">Details</button>
-                </div>
+            <div class="slideshow-child">
+                <img src="./assets/left-arrow.svg" alt="" onclick="handleSlideShowArrowClick(-1)">
+                <ul class="prod-list">
+                    <li class="slideshow-item"><img src="./assets/products/airpodss1.svg" alt="" srcset=""></li>
+                    <li class="slideshow-item"><img src="./assets/products/airpodsss2.png" alt="" srcset=""></li>
+                    <li class="slideshow-item"><img src="./assets/products/airpodsss3.png" alt="" srcset=""></li>
+                </ul>
+                <img src="./assets/right-arrow.svg" alt="" onclick="handleSlideShowArrowClick( 1)">
             </div>
         </div>
-        <div class="links">
-            <a href="">Compare all Mac models &gt;</a>
-            <a href="">Shop Mac &gt;</a>
+        <div id="airpods"></div>
+        <div class="airpods-ad">
+            <h2>AirPods Max</h2>
+            <div class="actions">
+                <button class="primary">Buy</button>
+                <button class="secondary">Learn More</button>
+            </div>
         </div>
     </section>
-    <div id="gap"></div>
+
+    <footer>
+        <div class="links">
+            <ul>
+
+                <li>
+                    <p><strong>shop and learn</strong></p>
+                    <p>Store</p>
+                    <p>Mac</p>
+                    <p>ipad</p>
+                    <p>iwatch</p>
+                </li>
+                <li>
+                    <p><strong>Services</strong></p>
+                    <p>Apple Music</p>
+                    <p>Apple Store</p>
+                    <p>Apple Books</p>
+                    <p>Apple Podcasts</p>
+                    <p>Apple News</p>
+                    <p>Apple TV</p>
+                </li>
+                <li>
+                    <p><strong>Apple Store</strong></p>
+                    <p>Find a Store</p>
+                    <p>Today at Apple</p>
+                    <p>Apple Store App</p>
+                    <p>Order Status</p>
+                    <p>Apple trade in</p>
+                    <p>Shopping Help</p>
+                    <br>
+                    <p><strong>Account</strong></p>
+                    <p>Manage your ID</p>
+                    <p>Apple Store Accout</p>
+                <li>
+                    <p><strong>For Business</strong></p>
+                    <p>Apple and Business</p>
+                    <p>Shope for business</p>
+                    <br>
+                    <p><strong>For Education</strong></p>
+                    <p>Apple and Education</p>
+                    <p>Shop for college</p>
+                    <br>
+                    <p><strong>For HealthCare</strong></p>
+                    <p>Apple and HealthCare</p>
+                    <p>Health records on iPhone</p>
+                </li>
+                <li>
+                    <p><strong>About Apple</strong></p>
+                    <p>News Room</p>
+                    <p>Apple Leadership</p>
+                    <p>Carrer Opportunities</p>
+                    <p>Events</p>
+                    <p>Contact Apple</p>
+
+                </li>
+            </ul>
+        </div>
+        <div class="ending">
+            <div class="social-meadia">
+                <img src="./assets/facebook.svg" alt="">
+                <img src="./assets/instagram.svg" alt="">
+                <img src="./assets/twitter.svg" alt="">
+            </div>
+            <hr>
+            <p>Privacy Policy | Terms of Use | Sales and Refunds</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

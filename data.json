@@ -1,0 +1,72 @@
+{
+  "macSectionData": {
+    "title": "Which Mac is right for you?",
+    "products": [
+      {
+        "name": "Apple Macbook Pro 14",
+        "imageSrc": "./assets/products/mac1.svg",
+        "price": "$1,999"
+      },
+      {
+        "name": "MacBook Air with M2 chip",
+        "imageSrc": "./assets/products/mac2.svg",
+        "price": "$2,399"
+      },
+      {
+        "name": "MacBook Air with M1 chip",
+        "imageSrc": "./assets/products/mac3.svg",
+        "price": "$829.99"
+      },
+      {
+        "name": "Apple Macbook Pro 13",
+        "imageSrc": "./assets/products/mac4.svg",
+        "price": "$829.99"
+      }
+    ],
+    "links": [
+      {
+        "text": "Compare all Mac models >",
+        "url": ""
+      },
+      {
+        "text": "Shop Mac >",
+        "url": ""
+      }
+    ]
+  },
+  "airpodsSectionData": {
+    "title": "Which Airpods are right for you?",
+    "products": [
+      {
+        "name": "AirPods 2nd generatio",
+        "imageSrc": "./assets/products/airpods1.svg",
+        "price": "$129"
+      },
+      {
+        "name": "AirPods 3nd generation",
+        "imageSrc": "./assets/products/airpods2.svg",
+        "price": "$169"
+      },
+      {
+        "name": "AirPods Pro 2nd generation",
+        "imageSrc": "./assets/products/airpods3.svg",
+        "price": "$249"
+      },
+      {
+        "name": "AirPods Max",
+        "imageSrc": "./assets/products/airpods4.svg",
+        "price": "$249"
+      }
+    ],
+    "links": [
+      {
+        "text": "Compare all AirPods models >",
+        "url": ""
+      },
+      {
+        "text": "Shop AirPods >",
+        "url": ""
+      }
+    ]
+  }
+}
